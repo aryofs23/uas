@@ -139,9 +139,6 @@ def fitur_a():
     list_negara.sort()
     negara = st.sidebar.selectbox("Pilih negara", list_negara)
 
-
-    kode = df[(df["name"] == negara)]["alpha-3"].to_list()[0]
-    df_states = df_prod[(df_prod.kode_negara == kode)].copy().set_index("tahun")
     st.subheader(f'Jumlah produksi minyak mentah {negara}.')
 
     source = df_merge[(df_merge["name"] == negara)]
