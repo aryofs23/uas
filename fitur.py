@@ -1,3 +1,8 @@
+
+#NAMA : Aryo Fadhilah Setiawan
+#NIM : 12220133
+#UAS
+
 def intro():
     import streamlit as st
 
