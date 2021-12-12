@@ -1,3 +1,8 @@
+#NAMA : Aryo Fadhilah Setiawan
+#NIM : 12220133
+#UAS
+
+
 import inspect
 import textwrap
 from collections import OrderedDict
